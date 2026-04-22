@@ -1,9 +1,11 @@
 # FreeDMO TagDump — ESP32 edition
 
-![ICON](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
-
 Android app that reads NXP SLIX2 tags **and** controls a FreeDMO ESP32-S2
 over Wi-Fi. Built as a fork of [free-dmo/free-dmo-tag-dump](https://github.com/free-dmo/free-dmo-tag-dump).
+
+<p align="center">
+  <img src="screenshot_app.png" alt="App screenshot" width="340">
+</p>
 
 ## What it does
 
@@ -73,5 +75,5 @@ with USB debugging and click Run.
 ## Credits
 
 Original scan code from [free-dmo/free-dmo-tag-dump](https://github.com/free-dmo/free-dmo-tag-dump).
-Icon from the [EFF article](https://www.eff.org/deeplinks/2022/02/worst-timeline-printer-company-putting-drm-paper-now).
+Icon ([![icon](app/src/main/res/mipmap-mdpi/ic_launcher.png)](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)) from the [EFF article](https://www.eff.org/deeplinks/2022/02/worst-timeline-printer-company-putting-drm-paper-now).
 ESP32-S2 firmware: [free-dmo-stm32 ESP32 port](https://github.com/free-dmo/free-dmo-stm32) (Wi-Fi control layer is local).
